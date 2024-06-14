@@ -7,7 +7,7 @@ dependencies:
  - networkx
  - h5py
  - matplotlib
- - mdtraj
+ - mdtraj<=1.9.9
  - pyemma
  - sphinx_rtd_theme
  - flake8
