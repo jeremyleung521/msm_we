@@ -13,10 +13,10 @@ from setuptools import setup, find_packages
 # WESTPA-2.0 with westpa.analysis is not yet in Conda
 # requirements = ["westpa>=v2.0b5"]
 requirements = [
-    "scikit-learn>=0.24,<1.1",
+    "scikit-learn>=0.24",
     "scipy>=1.5",
     "numpy>=1.16.5",
-    "mdtraj>=1.9",
+    "mdtraj>=1.9,<=1.9.9",
     "ray>=1.0",
     "h5py>=3.1",
     "tqdm",
